@@ -1,0 +1,2 @@
+class Pokerhand < ApplicationRecord
+end

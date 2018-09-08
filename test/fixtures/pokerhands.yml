@@ -1,0 +1,35 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  sc1: MyString
+  sc2: MyString
+  sc3: MyString
+  sc4: MyString
+  sc5: MyString
+  gamestreet: MyString
+  turntoplay: MyString
+  togglecount: MyString
+  turnyellow: false
+  displayinstruction: MyString
+  f1: MyString
+  f2: MyString
+  f3: MyString
+  turn: MyString
+  river: MyString
+
+two:
+  sc1: MyString
+  sc2: MyString
+  sc3: MyString
+  sc4: MyString
+  sc5: MyString
+  gamestreet: MyString
+  turntoplay: MyString
+  togglecount: MyString
+  turnyellow: false
+  displayinstruction: MyString
+  f1: MyString
+  f2: MyString
+  f3: MyString
+  turn: MyString
+  river: MyString
