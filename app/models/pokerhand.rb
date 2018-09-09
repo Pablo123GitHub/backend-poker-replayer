@@ -1,2 +1,0 @@
-class Pokerhand < ApplicationRecord
-end

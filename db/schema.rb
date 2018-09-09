@@ -9,30 +9,3 @@
 # you'll amass, the slower it'll run and the greater likelihood for issues).
 #
 # It's strongly recommended that you check this file into your version control system.
-
-ActiveRecord::Schema.define(version: 2018_09_08_194640) do
-
-  # These are extensions that must be enabled in order to support this database
-  enable_extension "plpgsql"
-
-  create_table "pokerhands", force: :cascade do |t|
-    t.string "sc1"
-    t.string "sc2"
-    t.string "sc3"
-    t.string "sc4"
-    t.string "sc5"
-    t.string "gamestreet"
-    t.string "turntoplay"
-    t.string "togglecount"
-    t.boolean "turnyellow"
-    t.string "displayinstruction"
-    t.string "f1"
-    t.string "f2"
-    t.string "f3"
-    t.string "turn"
-    t.string "river"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
-end

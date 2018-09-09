@@ -10,12 +10,13 @@ pokerhands = Pokerhand.create(
                                   turntoplay: "oop",
                                   togglecount: "6" ,
                                   turnyellow: false,
-                                  displayinstruction: "HE HAND IS FINISHED",
-                                  f1: "check_oop",
-                                  f2: "check_ip",
-                                  f3: "check_oop",
-                                  turn: "bet_ip",
-                                  river: "call_ip"
+                                  displayinstruction: "THE HAND IS FINISHED",
+                                  flopoop: "check_oop",
+                                  flopip: "check_ip",
+                                  turnoop: "bet_oop",
+                                  turnip: "call_ip",
+                                  riveroop: "check_ip",
+                                  rivrerip: "bet_ip"
                               },
                               {
                                   sc1:"king_heart.png",
@@ -27,12 +28,13 @@ pokerhands = Pokerhand.create(
                                   turntoplay: "oop",
                                   togglecount: "6" ,
                                   turnyellow: false,
-                                  displayinstruction: "HE HAND IS FINISHED",
-                                  f1: "bet_oop",
-                                  f2: "call_ip",
-                                  f3: "check_oop",
-                                  turn: "bet_ip",
-                                  river: "call_ip"
+                                  displayinstruction: "THE HAND IS FINISHED",
+                                  flopoop: "check_oop",
+                                  flopip: "check_ip",
+                                  turnoop: "bet_oop",
+                                  turnip: "call_ip",
+                                  riveroop: "check_ip",
+                                  rivrerip: "bet_ip"
                               },
                               {
                                   sc1:"queen_heart.png",
@@ -44,12 +46,13 @@ pokerhands = Pokerhand.create(
                                   turntoplay: "oop",
                                   togglecount: "6" ,
                                   turnyellow: false,
-                                  displayinstruction: "HE HAND IS FINISHED",
-                                  f1: "bet_oop",
-                                  f2: "call_ip",
-                                  f3: "check_oop",
-                                  turn: "check_ip",
-                                  river: "check_ip"
+                                  displayinstruction: "THE HAND IS FINISHED",
+                                  flopoop: "bet_oop",
+                                  flopip: "call_ip",
+                                  turnoop: "bet_oop",
+                                  turnip: "call_ip",
+                                  riveroop: "check_ip",
+                                  rivrerip: "bet_ip"
                               }
                           ]
 )
