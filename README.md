@@ -1,24 +1,21 @@
-# README
+## Backend-poker-replayer
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This repository contains the backend service for the [frontend-poker-replayer](https://github.com/Pablo123GitHub/poker-replayer)
 
-Things you may want to cover:
+## Technology
 
-* Ruby version
+- Ruby version 2.4.2
 
-* System dependencies
+- Rails version 5.2
 
-* Configuration
+## To get Started
 
-* Database creation
+cd into the root folder and then run the following command in Terminal :
 
-* Database initialization
+```bundle install ```
 
-* How to run the test suite
+And you can then run it :
 
-* Services (job queues, cache servers, search engines, etc.)
+```rails s -p 3001```
 
-* Deployment instructions
-
-* ...
+while the server runs on port 3001, the front end needs to run on a different port (3000)
