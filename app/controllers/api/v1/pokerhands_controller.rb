@@ -1,7 +1,7 @@
 module Api::V1
   class PokerhandsController < ApplicationController
     def index
-      @pokerhands = Pokerhand.all
+      @pokerhands = Pokerhand.order("created_at DESC")
       render json: @pokerhands
     end
 
